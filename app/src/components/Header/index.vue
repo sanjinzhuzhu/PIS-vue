@@ -7,11 +7,11 @@
           <div class="top logo flex container">
             <div class="top logo flex1">logo</div>
           </div>
-          <div class="top navlist flex1">People Search</div>
-          <div class="top navlist flex1">Phone Lookup</div>
-          <div class="top navlist flex1">White Pages</div>
-          <div class="top navlist flex1">Address Lookup</div>
-          <div class="top navlist flex1">Background Check</div>
+          <div style="margin-right:-11rem" class="top navlist flex1">People Search</div>
+          <div style="margin-right:-12rem" class="top navlist flex1">Phone Lookup</div>
+          <div style="margin-right:-10rem" class="top navlist flex1">White Pages</div>
+          <div style="margin-right:-9rem" class="top navlist flex1">Address Lookup</div>
+          <div  class="top navlist flex1">Background Check</div>
         </div>
         <!-- 第二行 -->
         <div class="font">
@@ -68,7 +68,6 @@ export default {
 }
 .navlist {
   margin: auto;
-  padding: 0;
   width: 128px;
   height: 23px;
   text-align: right;

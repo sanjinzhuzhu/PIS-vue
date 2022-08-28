@@ -9,7 +9,7 @@
         <!-- 左区 -->
         <div class="foot left-container flex">
           <!-- 列表区 -->
-          <div class="foot menulist flex1 colum">
+          <div style="margin-top: -0.29rem" class="foot menulist flex1 colum">
             <div style="font-weight: 700">MENU</div>
             <div class="foot menulistitem">About</div>
             <div class="foot menulistitem">Portfolio</div>
@@ -21,20 +21,18 @@
             <div style="right: 35.125rem" class="foot servelist flex colum">
               <div style="font-weight: 700">SERVE</div>
             </div>
-            <div>
-              <div class="foot servelistitem">Power & Energy</div>
-              <div class="foot servelistitem">Mechanical Works</div>
-              <div class="foot servelistitem">Oil and Gas</div>
-              <div class="foot servelistitem">Logistics Services</div>
-              <div class="foot servelistitem">General Industry</div>
-            </div>
+            <div class="foot servelistitem">Power & Energy</div>
+            <div class="foot servelistitem">Mechanical Works</div>
+            <div class="foot servelistitem">Oil and Gas</div>
+            <div class="foot servelistitem">Logistics Services</div>
+            <div class="foot servelistitem">General Industry</div>
           </div>
           <!-- 右区  -->
           <div class="foot right-container flex">
             <!-- 社交软件区 -->
-            <div style="margin-right:5rem" class="foot socialcon flex column">
-                <div style="font-weight:700"> SOCIAL</div>
-             
+            <div style="margin-right: 5rem" class="foot socialcon flex column">
+              <div style="font-weight: 700">SOCIAL</div>
+
               <div class="social flex">
                 <div class="foot socialcont-bg">
                   <div class="foot socialicon1">1</div>
@@ -55,8 +53,8 @@
           <div class="foot cprt">
             Copyright © 2020 Laaqiq. All Rights Reserved.
           </div>
-          <div style="left: 5rem" class="foot foot-Terms">
-            <div style="margin-left: 20rem" class="foot-Terms">
+          <div style="left: 6rem" class="foot foot-Terms">
+            <div style="margin-left: 19rem;" class="foot-Terms">
               Terms of Use
             </div>
           </div>
@@ -109,17 +107,20 @@ export default {
   display: inline;
 }
 .menulist {
+  top: 1px;
   left: 14rem;
 }
 
 .servelistitem {
   right: 35.125rem;
+  top: 0.375rem;
 }
 .menulist,
 .servelistitem {
   font-weight: 400;
   font-size: 1rem;
   line-height: 2rem;
+  padding: 0;
 }
 .socialcont-bg {
   background-image: ("~@/assets/images/footer/Oval.png");
