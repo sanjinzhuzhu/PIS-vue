@@ -35,13 +35,25 @@
 
               <div class="social flex">
                 <div class="foot socialcont-bg">
-                  <div class="foot socialicon1">1</div>
+                  <img
+                    style="margin: 16px 19.7px"
+                    clsss="foot icon-facebook"
+                    :src="facebookIcon"
+                  />
                 </div>
                 <div class="foot socialcont-bg">
-                  <div class="foot socialicon2">1</div>
+                  <img
+                    style="margin: 16px 16px"
+                    clsss="foot icon-instagram"
+                    :src="instagramIcon"
+                  />
                 </div>
                 <div class="foot socialcont-bg">
-                  <div class="foot socialicon3">1</div>
+                  <img
+                    style="margin: 18px 16px"
+                    clsss="foot icon-twitter"
+                    :src="twitterIcon"
+                  />
                 </div>
               </div>
             </div>
@@ -54,7 +66,7 @@
             Copyright © 2020 Laaqiq. All Rights Reserved.
           </div>
           <div style="left: 6rem" class="foot foot-Terms">
-            <div style="margin-left: 19rem;" class="foot-Terms">
+            <div style="margin-left: 19rem" class="foot-Terms">
               Terms of Use
             </div>
           </div>
@@ -70,8 +82,18 @@
 </template>
 
 <script>
+import facebookIcon from "@/assets/images/footer/facebook.png";
+import instagramIcon from "@/assets/images/footer/instagram.png";
+import twitterIcon from "@/assets/images/footer/twitter.png";
 export default {
   name: "Footer",
+  data() {
+    return {
+      facebookIcon,
+      instagramIcon,
+      twitterIcon,
+    };
+  },
 };
 </script>
 
@@ -123,7 +145,12 @@ export default {
   padding: 0;
 }
 .socialcont-bg {
-  background-image: ("~@/assets/images/footer/Oval.png");
+  margin-right:10px;
+  margin-top: 30px;
+  background-color: #5b77ee;
+  border-radius: 50%;
+  height: 48px;
+  width: 48px;
 }
 
 .cprt {
