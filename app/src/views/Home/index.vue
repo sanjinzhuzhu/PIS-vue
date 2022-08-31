@@ -1,5 +1,6 @@
 <template>
-  <div class="search flex">
+  <!-- search 模块开始 -->
+  <div class="home flex column">
     <div class="search zuxian flex">
       <!-- 搜索悬浮窗盒子-->
       <div class="search father flex">
@@ -17,8 +18,12 @@
               style="margin-right: 30px padding:0 auto"
               class="search itembox11 flex"
             >
-              <img class="search icon-people" :src="peopleIcon" />
-              <div style="padding: 0 10px" class="search itemlist">
+              <img
+                style="margin: 10px 7px"
+                class="search icon-people"
+                :src="peopleIcon"
+              />
+              <div style="width: 120px" class="search itemlist">
                 People Search
               </div>
             </div>
@@ -40,6 +45,7 @@
                 border-right: 0.0625rem solid #e6e9f0;
                 height: 60px;
                 line-height: 60px;
+                margin-left: 38px;
               "
               class="search searchitem"
             >
@@ -103,11 +109,10 @@
                   class="search search-icon"
                   :src="searchIcon"
                 />
-                <div>Start Search</div>
+                <div style="width: 100px">Start Search</div>
               </div>
             </div>
           </div>
-
           <!-- 第四行 -->
           <div class="search searchtip">
             Try searching a friend, relative, celebrity, yourself, or someone
@@ -127,6 +132,204 @@
         </div>
       </div>
     </div>
+    <!-- search 模块结束 -->
+
+    <!-- what cocoIcon -->
+    <div
+      style="
+        font-weight: 900;
+        font-size: 36px;
+        line-height: 42px;
+        text-align: center;
+      "
+      class="what what-coco"
+    >
+      What Can I Find on CocoFinder?
+    </div>
+
+    <div class="coco-bigcontainer">
+      <!-- 第一排 -->
+      <div class="coco flex">
+        <div class="icon-container flex column">
+          <div style="background: #6fb4f91a" class="bgicon flex">
+            <img
+              style="width: 15px; height: 30px; margin: 10px auto"
+              class="coco-phone"
+              :src="cocoPhoneIcon"
+            />
+          </div>
+          <div class="what container-font">
+            <div class="coco-font">Phone Number Identity</div>
+          </div>
+        </div>
+        <div class="icon-container flex column">
+          <div style="background: #6fcf8c1a" class="bgicon flex">
+            <img
+              style="width: 15px; height: 30px; margin: 10px auto"
+              class="coco-greenery"
+              :src="cocoGreeneryIcon"
+            />
+          </div>
+          <div class="what container-font">
+            <div class="coco-font">Age and Date of Birth</div>
+          </div>
+        </div>
+        <div class="icon-container flex column">
+          <div style="background: #65ced51a" class="bgicon flex">
+            <img
+              style="width: 15px; height: 30px; margin: 10px auto"
+              class="coco-file"
+              :src="cocoFileIcon"
+            />
+          </div>
+          <div class="what container-font">
+            <div class="coco-font">Background Check</div>
+          </div>
+        </div>
+      </div>
+      <!-- 第二排 -->
+      <div class="coco flex">
+        <div class="icon-container flex column">
+          <div style="background: #62be4b1a" class="bgicon flex">
+            <img
+              style="width: 15px; height: 30px; margin: 10px auto"
+              class="coco-chuizi"
+              :src="cocoChuiziIcon"
+            />
+          </div>
+          <div class="what container-font">
+            <div class="coco-font">Court Records</div>
+          </div>
+        </div>
+        <div class="icon-container flex column">
+          <div style="background: #3682d21a" class="bgicon flex">
+            <img
+              style="width: 15px; height: 30px; margin: 10px auto"
+              class="coco-people"
+              :src="cocoPeopleIcon"
+            />
+          </div>
+          <div class="what container-font">
+            <div class="coco-font">Relatives</div>
+          </div>
+        </div>
+        <div class="icon-container flex column">
+          <div style="background: #72e4a91a" class="bgicon flex">
+            <img
+              style="width: 15px; height: 30px; margin: 10px auto"
+              class="coco-tel"
+              :src="cocoTelIcon"
+            />
+          </div>
+          <div class="what container-font">
+            <div class="coco-font">Contact Numbers</div>
+          </div>
+        </div>
+      </div>
+      <!-- 第三排 -->
+      <div class="coco flex">
+        <div class="icon-container flex column">
+          <div syle="background: #68ADF91A;" class="bgicon flex">
+            <img
+              style="width: 15px; height: 30px; margin: 10px auto"
+              class="coco-house"
+              :src="cocoHouseIcon"
+            />
+          </div>
+          <div class="what container-font">
+            <div class="coco-font">Current Address</div>
+          </div>
+        </div>
+        <div class="icon-container flex column">
+          <div style="background: #8952ec1a" class="bgicon flex">
+            <img
+              style="width: 15px; height: 30px; margin: 10px auto"
+              class="coco-car"
+              :src="cocoCarIcon"
+            />
+          </div>
+          <div class="what container-font">
+            <div class="coco-font">Traffic Tickets</div>
+          </div>
+        </div>
+        <div class="icon-container flex column">
+          <div style="background: #e582421a" class="bgicon flex">
+            <img
+              style="width: 15px; height: 30px; margin: 10px auto"
+              class="coco-portfolio"
+              :src="cocoPortfolioIcon"
+            />
+          </div>
+          <div class="what container-font">
+            <div class="coco-font">Sex Offender Data</div>
+          </div>
+        </div>
+      </div>
+      <!-- 第四排 -->
+      <div class="coco flex">
+        <div class="icon-container flex column">
+          <div style="background: #efa2621a" class="bgicon flex">
+            <img
+              style="width: 15px; height: 30px; margin: 10px auto"
+              class="coco-handcuffs"
+              :src="cocohandcuffsIcon"
+            />
+          </div>
+          <div class="what container-font">
+            <div class="coco-font">Arrest Records</div>
+          </div>
+        </div>
+        <div class="icon-container flex column">
+          <div style="background: #3682d21a" class="bgicon flex">
+            <img
+              style="width: 15px; height: 30px; margin: 10px auto"
+              class="coco-box"
+              :src="cocoBoxIcon"
+            />
+          </div>
+          <div class="what container-font">
+            <div class="coco-font">Vital Records</div>
+          </div>
+        </div>
+        <div class="icon-container flex column">
+          <div style="background: #efa2621a" class="bgicon flex">
+            <img
+              style="width: 15px; height: 30px; margin: 10px auto"
+              class="coco-crfile"
+              :src="cocoCrfileIcon"
+            />
+          </div>
+          <div class="what container-font">
+            <div class="coco-font">Criminal Records</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- how cocoIcon -->
+    <div class="how how-coco">
+      <div
+        style="
+          font-weight: 900;
+          font-size: 36px;
+          line-height: 42px;
+          text-align: center;
+          margin-top: 90px;
+        "
+        class="what how-coco"
+      >
+        How Can I Use CocoFinder?
+      </div>
+
+      <div class="coco-bigbgcontainer">
+        <div class="coco-bg flex column">
+          <img style="margin:0 auto" class="coco people-search" :src="peopleSearchIcon" />
+          <div style="margin:20px auto ;font-size:20px" class="people-search">People Search</div>
+          <div style="margin:0 auto; padding:20px ;font-size:8px ;justfy-content:center" class="people-context">
+            Finding people by searching for them through their name. People finder tool to find family members, friends,acquaintances, dates,and more.
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
 </template>
 
@@ -139,6 +342,20 @@ import bgcheckIcon from "@/assets/images/Search/bg check.png";
 import triangleIcon from "@/assets/images/Search/Polygon 1.png";
 import searchIcon from "@/assets/images/Search/search.png";
 import lockIcon from "@/assets/images/Search/lock.png";
+import cocoPhoneIcon from "@/assets/images/coco/phone.png";
+import cocoGreeneryIcon from "@/assets/images/coco/greenery.png";
+import cocoFileIcon from "@/assets/images/coco/file.png";
+import cocoChuiziIcon from "@/assets/images/coco/chuizi.png";
+import cocoPeopleIcon from "@/assets/images/coco/people.png";
+import cocoTelIcon from "@/assets/images/coco/tel.png";
+import cocoHouseIcon from "@/assets/images/coco/house.png";
+import cocoCarIcon from "@/assets/images/coco/car.png";
+import cocoPortfolioIcon from "@/assets/images/coco/portfolio.png";
+import cocohandcuffsIcon from "@/assets/images/coco/portfolio.png";
+import cocoBoxIcon from "@/assets/images/coco/box.png";
+import cocoCrfileIcon from "@/assets/images/coco/crfile.png";
+import peopleSearchIcon from "@/assets/images/coco/people-search.png"
+
 export default {
   name: "home",
   data() {
@@ -151,6 +368,19 @@ export default {
       triangleIcon,
       searchIcon,
       lockIcon,
+      cocoPhoneIcon,
+      cocoGreeneryIcon,
+      cocoFileIcon,
+      cocoChuiziIcon,
+      cocoPeopleIcon,
+      cocoTelIcon,
+      cocoHouseIcon,
+      cocoCarIcon,
+      cocoPortfolioIcon,
+      cocohandcuffsIcon,
+      cocoBoxIcon,
+      cocoCrfileIcon,
+      peopleSearchIcon,
     };
   },
 };
@@ -180,7 +410,7 @@ export default {
   background-color: #ffff;
   box-shadow: 0px 12px 40px rgba(0, 0, 0, 0.05);
   border-radius: 1.25rem;
-  margin: -1rem auto 200px;
+  margin: -15rem auto 180px;
   display: inline;
   /* padding: 0 40px; */
 }
@@ -270,4 +500,50 @@ export default {
 /* 
 悬浮窗口结束页
  */
+
+/* waht coco */
+.what {
+  font-family: "Roboto";
+  font-style: normal;
+  color: #0e2e63;
+  margin-bottom: 80px;
+}
+.coco-bigcontainer {
+  margin: 0px auto;
+}
+.icon-container {
+  height: 40px;
+  width: 230px;
+  background: #ffffff;
+  box-shadow: 0px 8px 30px rgba(0, 0, 0, 0.05);
+  margin: 10px 50px;
+}
+.bgicon {
+  /* position: relative; */
+  height: 40px;
+  width: 40px;
+  /* background: #6FB4F91A; */
+}
+.coco-font {
+  /* position: absolute; */
+  font-size: 10px;
+  font-weight: 500;
+  margin: -27px 49px;
+}
+.how-coco {
+ align-items: center;
+  margin-top: 80px;
+
+  background: #f4f6fa;
+}
+.coco-bigbgcontainer {
+  width: 300px;
+  height: 200px;
+  background-color: #ffffff;
+  color: #204178;
+  border-radius: 12px;
+  margin: 0 auto;
+
+ 
+}
 </style>

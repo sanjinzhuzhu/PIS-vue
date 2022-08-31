@@ -142,7 +142,6 @@ export default {
   font-weight: 400;
   font-size: 1rem;
   line-height: 2rem;
-  padding: 0;
 }
 .socialcont-bg {
   margin-right:10px;

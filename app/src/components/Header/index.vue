@@ -69,7 +69,6 @@ export default {
 .logo {
   width: 48px;
   height: 28px;
-
   font-family: "Roboto";
   font-style: normal;
   font-weight: 700;
@@ -79,22 +78,22 @@ export default {
 .navlist {
   margin: auto;
   width: 128px;
-  height: 23px;
+  height: 3px;
   text-align: right;
   font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
-  font-size: 1.25rem;
+  font-size: 1em;
   line-height: 1.465rem;
 }
 .font {
   font-style: normal;
-  margin: 5rem auto auto;
+  margin: 3rem auto auto;
   font-weight: 900;
-  font-size: 3.75rem;
-  line-height: 4.375rem;
+  font-size: 2.5rem;
+  line-height: 2.375rem;
   text-align: center;
-  height: 140px;
+  height: 20rem;
   left: 447px;
   top: 152px;
 }
