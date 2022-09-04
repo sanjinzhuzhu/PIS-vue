@@ -319,17 +319,188 @@
       >
         How Can I Use CocoFinder?
       </div>
-
-      <div class="coco-bigbgcontainer">
-        <div class="coco-bg flex column">
-          <img style="margin:0 auto" class="coco people-search" :src="peopleSearchIcon" />
-          <div style="margin:20px auto ;font-size:20px" class="people-search">People Search</div>
-          <div style="margin:0 auto; padding:20px ;font-size:8px ;justfy-content:center" class="people-context">
-            Finding people by searching for them through their name. People finder tool to find family members, friends,acquaintances, dates,and more.
+      <div style="margin: auto 100px" class="flex column">
+        <div style="margin: auto 40px" class="flex">
+          <div class="coco-bigbgcontainer">
+            <div class="coco-bg flex column">
+              <img
+                style="margin: auto; padding: 20px"
+                class="coco people-search"
+                :src="peopleSearchIcon"
+              />
+              <div
+                style="text-align: center; padding: 10px; font-size: 20px"
+                class="people-search"
+              >
+                People Search
+              </div>
+              <div
+                style="
+                  text-align: center;
+                  height: 14.06px;
+                  line-height: 14.06px;
+                  font-size: 8px;
+                  justfy-content: center;
+                "
+                class="people-context"
+              >
+                Finding people by searching for them through their name. People
+                finder tool to find family members, friends,acquaintances,
+                dates,and more.
+              </div>
+            </div>
+          </div>
+          <div class="coco-bigbgcontainer">
+            <div class="coco-bg flex column">
+              <img
+                style="margin: auto; padding: 20px"
+                class="coco people-search"
+                :src="peopleSearchIcon"
+              />
+              <div
+                style="text-align: center; padding: 10px; font-size: 20px"
+                class="people-search"
+              >
+                People Search
+              </div>
+              <div
+                style="
+                  text-align: center;
+                  height: 14.06px;
+                  line-height: 14.06px;
+                  font-size: 8px;
+                  justfy-content: center;
+                "
+                class="people-context"
+              >
+                Finding people by searching for them through their name. People
+                finder tool to find family members, friends,acquaintances,
+                dates,and more.
+              </div>
+            </div>
+          </div>
+          <div class="coco-bigbgcontainer">
+            <div class="coco-bg flex column">
+              <img
+                style="margin: auto; padding: 20px"
+                class="coco people-search"
+                :src="peopleSearchIcon"
+              />
+              <div
+                style="text-align: center; padding: 10px; font-size: 20px"
+                class="people-search"
+              >
+                People Search
+              </div>
+              <div
+                style="
+                  text-align: center;
+                  height: 14.06px;
+                  line-height: 14.06px;
+                  font-size: 8px;
+                  justfy-content: center;
+                "
+                class="people-context"
+              >
+                Finding people by searching for them through their name. People
+                finder tool to find family members, friends,acquaintances,
+                dates,and more.
+              </div>
+            </div>
+          </div>
+        </div>
+        <div style="margin: 80px 40px" class="flex">
+          <div class="coco-bigbgcontainer">
+            <div class="coco-bg flex column">
+              <img
+                style="margin: auto; padding: 20px"
+                class="coco people-search"
+                :src="peopleSearchIcon"
+              />
+              <div
+                style="text-align: center; padding: 10px; font-size: 20px"
+                class="people-search"
+              >
+                People Search
+              </div>
+              <div
+                style="
+                  text-align: center;
+                  height: 14.06px;
+                  line-height: 14.06px;
+                  font-size: 8px;
+                  justfy-content: center;
+                "
+                class="people-context"
+              >
+                Finding people by searching for them through their name. People
+                finder tool to find family members, friends,acquaintances,
+                dates,and more.
+              </div>
+            </div>
+          </div>
+          <div class="coco-bigbgcontainer">
+            <div class="coco-bg flex column">
+              <img
+                style="margin: auto; padding: 20px"
+                class="coco people-search"
+                :src="peopleSearchIcon"
+              />
+              <div
+                style="text-align: center; padding: 10px; font-size: 20px"
+                class="people-search"
+              >
+                People Search
+              </div>
+              <div
+                style="
+                  text-align: center;
+                  height: 14.06px;
+                  line-height: 14.06px;
+                  font-size: 8px;
+                  justfy-content: center;
+                "
+                class="people-context"
+              >
+                Finding people by searching for them through their name. People
+                finder tool to find family members, friends,acquaintances,
+                dates,and more.
+              </div>
+            </div>
+          </div>
+          <div class="coco-bigbgcontainer">
+            <div class="coco-bg flex column">
+              <img
+                style="margin: auto; padding: 20px"
+                class="coco people-search"
+                :src="peopleSearchIcon"
+              />
+              <div
+                style="text-align: center; padding: 10px; font-size: 20px"
+                class="people-search"
+              >
+                People Search
+              </div>
+              <div
+                style="
+                  text-align: center;
+                  height: 14.06px;
+                  line-height: 14.06px;
+                  font-size: 8px;
+                  justfy-content: center;
+                "
+                class="people-context"
+              >
+                Finding people by searching for them through their name. People
+                finder tool to find family members, friends,acquaintances,
+                dates,and more.
+              </div>
+            </div>
           </div>
         </div>
       </div>
     </div>
+    <!-- how cocoIcon -->
   </div>
 </template>
 
@@ -354,7 +525,7 @@ import cocoPortfolioIcon from "@/assets/images/coco/portfolio.png";
 import cocohandcuffsIcon from "@/assets/images/coco/portfolio.png";
 import cocoBoxIcon from "@/assets/images/coco/box.png";
 import cocoCrfileIcon from "@/assets/images/coco/crfile.png";
-import peopleSearchIcon from "@/assets/images/coco/people-search.png"
+import peopleSearchIcon from "@/assets/images/coco/people-search.png";
 
 export default {
   name: "home",
@@ -412,6 +583,7 @@ export default {
   border-radius: 1.25rem;
   margin: -15rem auto 180px;
   display: inline;
+
   /* padding: 0 40px; */
 }
 /* 第一行样式 */
@@ -530,8 +702,9 @@ export default {
   font-weight: 500;
   margin: -27px 49px;
 }
+/* how coco */
 .how-coco {
- align-items: center;
+  align-items: center;
   margin-top: 80px;
 
   background: #f4f6fa;
@@ -543,7 +716,6 @@ export default {
   color: #204178;
   border-radius: 12px;
   margin: 0 auto;
-
- 
 }
 </style>
+
